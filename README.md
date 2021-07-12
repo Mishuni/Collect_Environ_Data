@@ -1,4 +1,4 @@
-# KETI Pre Data Collection
+# Envrionment (weather, air) Data Collection
 
 > data collection
 
@@ -17,7 +17,7 @@ $ docker run --name collector --restart always -d data_collector:v0.1
 
 
 
-#### influx_setting.py Template (ignored)
+## influx_setting.py Template (ignored)
 ```python
 # ~/Collect_Environ_Data/data_collection/influxdb_management/influx_setting.py
 
